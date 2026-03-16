@@ -1,0 +1,1 @@
+$setblock ~ ~ ~ amendments:liquid_cauldron[level=$(level)]{fluid: $(fluid)} replace

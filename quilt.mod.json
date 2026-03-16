@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.modrinth",
+    "id": "amendablearrows",
+    "version": "1.0.0",
+    "metadata": {
+      "name": "Amendable Arrows",
+      "description": "Simply right-click a potion-filled cauldron with arrows in your hand to infuse them with its effect!",
+      "contact": {
+        "homepage": "https://modrinth.com/datapack/amendablearrows",
+        "sources": "https://github.com/syarkkya/amendablearrows",
+        "issues": "https://github.com/syarkkya/amendablearrows/issues"
+      },
+      "icon": "assets/amendablearrows/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      },
+      {
+        "id": "amendments",
+        "versions": "*"
+      }
+    ]
+  }
+}

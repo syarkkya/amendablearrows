@@ -1,0 +1,3 @@
+execute align xyz positioned ~0.5 ~0 ~0.5 as @e[type=interaction,tag=amendablearrows_interact,distance=..0.1,limit=1] run scoreboard players set @s amendablearrows_life 3
+execute align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=interaction,tag=amendablearrows_interact,distance=..0.1,limit=1] run summon interaction ~ ~ ~ {Tags:["amendablearrows_interact"],width:1.01f,height:1.01f}
+execute align xyz positioned ~0.5 ~0 ~0.5 as @e[type=interaction,tag=amendablearrows_interact,distance=..0.1,limit=1] run scoreboard players set @s amendablearrows_life 3

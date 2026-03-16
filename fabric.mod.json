@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "amendablearrows",
+  "version": "1.0.0",
+  "name": "Amendable Arrows",
+  "description": "Simply right-click a potion-filled cauldron with arrows in your hand to infuse them with its effect!",
+  "authors": [
+    "syarkkya"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/datapack/amendablearrows",
+    "sources": "https://github.com/syarkkya/amendablearrows",
+    "issues": "https://github.com/syarkkya/amendablearrows/issues"
+  },
+  "license": "Custom",
+  "icon": "assets/amendablearrows/icon.png",
+  "environment": "*",
+  "depends": {
+    "fabric-resource-loader-v0": "*",
+    "amendments": "*"
+  }
+}

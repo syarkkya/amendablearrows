@@ -1,0 +1,3 @@
+scoreboard objectives add amendablearrows_arrows dummy
+scoreboard objectives add amendablearrows_steps dummy
+scoreboard objectives add amendablearrows_life dummy
